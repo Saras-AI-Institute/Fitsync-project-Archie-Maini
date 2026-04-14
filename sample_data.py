@@ -12,5 +12,5 @@ def main():
     print("\nNumber of missing values in each column:")
     print(df.isnull().sum())
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
